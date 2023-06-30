@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Speedlify</title>
+		<title>How Fast My Apps - UPT TIK Universitas Jember</title>
 		<meta name="description" content="Benchmark web pages over time.">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<header>
-			<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
+			<h1 class="speedlify-hed"><a href="{{ '/' | url }}">HowFastMyApps</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
 			<p class="speedlify-subhed">
 				Benchmark {{ sites[vertical].description or "web pages" }} over time.
 				{%- if sites[vertical].unordered %}
@@ -22,10 +22,10 @@
 				{%- if maxResults %}
 					Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} run{% if maxResults != 1 %}s{% endif %} (and the oldest run) are shown.
 				{%- endif %}
-				Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+				Created by <a href="https://t.me/orangebananaspy/">@orangebananaspy</a>.
 			</p>
 			<p class="speedlify-subhed">
-				<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
+				<a href="#">You can submit your apps to monitoring over time</a>.
 			</p>
 		</header>
 
@@ -34,7 +34,7 @@
 		</main>
 
 		<footer>
-			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+			MIT licensed. Created by <a href="https://t.me/orangebananaspy">@orangebananaspy</a>.
 		</footer>
 
 		<script defer src="{{ '/chartist.js' | url }}"></script>
