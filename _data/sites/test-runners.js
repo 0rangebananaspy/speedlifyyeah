@@ -1,5 +1,5 @@
 module.exports = {
-	description: "Front-end Testing Tools",
+	description: "Monitoring Performa Website Universitas",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
@@ -12,15 +12,8 @@ module.exports = {
 		freshChrome: "site",
 	},
 	urls: [
-		"https://eslint.org/",
-		"https://qunitjs.com/",
-		"https://karma-runner.github.io/latest/index.html",
-		"https://gulpjs.com/",
-		"https://webhint.io/",
-		"https://gruntjs.com/",
-		"https://theintern.io/",
-		"https://istanbul.js.org/",
-		"https://webdriver.io/",
-		"https://mochajs.org/"
+		"https://unej.ac.id/",
+		"https://uptti.unej.ac.id/",
+		"https://sso.unej.ac.id",
 	]
 };
