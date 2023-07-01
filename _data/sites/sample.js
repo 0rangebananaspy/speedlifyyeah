@@ -1,11 +1,16 @@
 module.exports = {
-	name: "Contoh", // optional, falls back to object key
-	description: "Performa SLD",
+	name: "MainWeb", // optional, falls back to object key
+	description: "Performa Website",
 	options: {
 		runs: 10,
-		frequency: 10, // (in minutes)
+		frequency: 100, // (in minutes)
 	},
 	urls: [
-		"https://status.unej.ac.id/",
+		"https://unej.ac.id/",
+		"https://fk.unej.ac.id",
+		"https://fkm.unej.ac.id",
+		"https://fmipa.unej.ac.id",
+		"https://feb.unej.ac.id",
+		"https://uptti.unej.ac.id",
 	]
 };
