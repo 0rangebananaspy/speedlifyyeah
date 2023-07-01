@@ -7,7 +7,5 @@ module.exports = {
 	},
 	urls: [
 		"https://status.unej.ac.id/",
-		"https://unej.ac.id/",
-		"https://uptti.unej.ac.id/"
 	]
 };
