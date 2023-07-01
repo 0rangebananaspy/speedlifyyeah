@@ -3,7 +3,7 @@ module.exports = {
 	description: "Performa SLD",
 	options: {
 		runs: 10,
-		frequency: 1, // (in minutes)
+		frequency: 10, // (in minutes)
 	},
 	urls: [
 		"https://status.unej.ac.id/",
