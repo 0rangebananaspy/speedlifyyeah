@@ -39,6 +39,7 @@ module.exports = {
 		"https://oailib.unej.ac.id/",
 		"https://library.unej.ac.id/",
 		"https://jurnal.unej.ac.id/",
+		"https://journal.unej.ac.id/",
 		"https://mbkm.unej.ac.id/"
 	]
 };
